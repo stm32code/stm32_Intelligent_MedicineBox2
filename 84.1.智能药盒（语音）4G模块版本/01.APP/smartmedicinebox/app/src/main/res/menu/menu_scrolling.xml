@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.intelligentsmokealarmsystem.HomeFragment">
+    <item
+        android:id="@+id/debugView"
+        android:orderInCategory="100"
+        android:title="@string/setDebug"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/registerView"
+        android:orderInCategory="100"
+        android:title="@string/history"
+        app:showAsAction="never" />
+<!--    <item-->
+<!--        android:id="@+id/settingView"-->
+<!--        android:orderInCategory="100"-->
+<!--        android:title="@string/set"-->
+<!--        app:showAsAction="never" />-->
+
+</menu>
