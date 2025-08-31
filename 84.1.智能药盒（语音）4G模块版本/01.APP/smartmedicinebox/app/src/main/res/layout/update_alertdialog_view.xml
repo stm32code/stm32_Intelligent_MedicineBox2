@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFFFFF"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="7dp"
+        app:contentPadding="15dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView android:text="药品:" />
+
+            <EditText
+                android:id="@+id/medicineNameText"
+                android:layout_margin="20dp"
+                android:hint="药品名" />
+
+            <TextView android:text="数量:" />
+
+            <EditText
+                android:id="@+id/medicineNumText"
+                android:layout_margin="20dp"
+                android:hint="药品数量"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/submitBtn"
+                android:layout_margin="20dp"
+                android:background="@drawable/updatebutton_background"
+                android:text="提交"
+                android:textColor="@color/white" />
+        </TableLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
